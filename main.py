@@ -5,12 +5,6 @@ import os
 import re
 
 def exibe(brand):
-    if re.search('deca|Deca|DECA',brand):
-       pass
-
-    if re.search('bobinex|Bobinex|BOBINEX', brand):
-        pass
-    
     if re.search('LEVEL|Level|level',brand):
        level.Level(brand).excel_reader()
 
